@@ -1,0 +1,10 @@
+g\_gdp\_per\_cap: $\Delta \log(\text{GDP}/\text{pop})$
+g\_cellphone: $\Delta \log(\text{cellphone})$
+g\_ag\_tractor: $\Delta \log(\text{tractor})$
+g\_bed\_hosp: $\Delta \log(\text{hosp\_bed})$
+g\_vehicle\_car: $\Delta \log(\text{car})$
+g\_eft: $\Delta \log(\text{eft})$
+g\_avh: $\Delta \log(\text{avh})$
+g\_hc: $\Delta \log(\text{hc})$
+g\_pop: $\Delta \log(\text{pop})$
+g\_pctivliteracy: $\Delta \log(\text{pctivliteracy})$

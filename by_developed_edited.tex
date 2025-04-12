@@ -1,0 +1,66 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Effect of Technology Growth on GDP per Capita Growth by Developed}
+\begin{tabular}{l*{3}{D{.}{.}{-1}}}
+\hline\hline
+                &\multicolumn{1}{c}{Developing}&\multicolumn{1}{c}{Developed}&\multicolumn{1}{c}{Both}\\
+                &\multicolumn{1}{c}{$\Delta \log(\text{GDP}/\text{pop})$}&\multicolumn{1}{c}{$\Delta \log(\text{GDP}/\text{pop})$}&\multicolumn{1}{c}{$\Delta \log(\text{GDP}/\text{pop})$}\\
+\hline
+$\Delta \log(\text{cellphone})$     & -0.00259         & -0.00115         & -0.00368         \\
+                &(0.00295)         &(0.00603)         &(0.00288)         \\
+[1em]
+$\Delta \log(\text{tractor})$    &   0.0205         &  -0.0314         &  -0.0161         \\
+                & (0.0674)         & (0.0337)         & (0.0628)         \\
+[1em]
+$\Delta \log(\text{hosp\_bed})$      & -0.00475         &    0.229\sym{**} & -0.00711\sym{*}  \\
+                &(0.00350)         & (0.0927)         &(0.00400)         \\
+[1em]
+$\Delta \log(\text{car})$   & -0.00397         &   0.0148         & -0.00455         \\
+                &(0.00898)         & (0.0111)         & (0.0107)         \\
+[1em]
+$\Delta \log(\text{eft})$           & -0.00324         &  -0.0118         &-0.000426         \\
+                &(0.00748)         &(0.00966)         &(0.00771)         \\
+[1em]
+$\Delta \log(\text{avh})$           &   -0.249         &    2.107\sym{***}&    0.825         \\
+                &  (0.492)         &  (0.355)         &  (0.556)         \\
+[1em]
+$\Delta \log(\text{hc})$            &    1.959\sym{***}&    3.433\sym{***}&    2.556\sym{***}\\
+                &  (0.538)         &  (0.928)         &  (0.409)         \\
+[1em]
+$\Delta \log(\text{pop})$           &   -0.141\sym{***}&    1.783\sym{***}&  -0.0995\sym{***}\\
+                & (0.0366)         &  (0.591)         & (0.0334)         \\
+[1em]
+$\Delta \log(\text{pctivliteracy})$ &  0.00718         &   -1.006\sym{***}&  0.00144         \\
+                &(0.00648)         &  (0.314)         &(0.00565)         \\
+[1em]
+Year            &0.00000216         &-0.000114         &-0.000260         \\
+                &(0.000297)         &(0.0000902)         &(0.000164)         \\
+[1em]
+dev       &                  &                  &   0.0112         \\
+                &                  &                  &(0.00745)         \\
+[1em]
+$\text{dev}\cdot \Delta \log(\text{cellphone})$ &                  &                  &   0.0104         \\
+                &                  &                  &(0.00907)         \\
+[1em]
+$\text{dev} \cdot \Delta \log(\text{tractor})$&                  &                  & 0.000289         \\
+                &                  &                  & (0.0691)         \\
+[1em]
+$\text{dev} \cdot\Delta \log(\text{hosp\_bed})$  &                  &                  &    0.200\sym{*}  \\
+                &                  &                  &  (0.102)         \\
+[1em]
+$\text{dev} \cdot\Delta \log(\text{car})$&                  &                  &   0.0501         \\
+                &                  &                  & (0.0324)         \\
+[1em]
+$\text{dev} \cdot\Delta \log(\text{eft})$       &                  &                  &  -0.0121         \\
+                &                  &                  & (0.0145)         \\
+[1em]
+Constant        & 0.000885         &    0.223         &    0.516         \\
+                &  (0.586)         &  (0.177)         &  (0.326)         \\
+\hline
+Observations    &       54         &       54         &      108         \\
+\hline\hline
+\multicolumn{4}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\label{by_developed}
+\end{table}
