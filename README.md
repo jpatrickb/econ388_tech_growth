@@ -16,5 +16,5 @@ Some plotting was done using Python instead, found in [plotting.ipynb](plotting.
 Log files can be found in [stata_code/data_cleaning.log](stata_code/data_cleaning.log) and [stata_code/DE3.log](stata_code/DE3.log).
 
 ## Memo
-The write up was done in $\LaTeX$, with the main source code found in [tex_files/data_exercise3.tex](tex_files/data_exercise3.tex).
-The completed PDF can be found [here](econ388_tech_growth/tex_files/data_exercise3.pdf).
+The write up was done in LaTeX, with the main source code found in [tex_files/data_exercise3.tex](tex_files/data_exercise3.tex).
+The completed PDF can be found [here](tex_files/data_exercise3.pdf).
